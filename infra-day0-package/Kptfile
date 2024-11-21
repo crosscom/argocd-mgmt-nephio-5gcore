@@ -34,6 +34,6 @@ pipeline:
     image: gcr.io/kpt-fn/search-replace:v0.2.0
     configMap:
       by-value: IRSA_ARN
-      put-value: arn:aws:iam::ACCOUNT_ID:role/mgmt-argocd-terraform-runner
+      put-value: arn:aws:iam::340256550793:role/mgmt-argocd-terraform-runner
     selectors:
     - kind: Terraform
